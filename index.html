@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="main-container">
+        <header class="header">
+            <h1>TODO LIST</h1>
+        </header>
+        <main class="main">
+            <h2>Bienvenido</h2>
+            <input id="texto" type="text" placeholder="Ingrese una tarea">
+            <input id="boton" type="submit" value="Agregar">
+        </main>
+        <div class="list">
+            <h3>Lista de tareas agregadas</h3>
+            <ul id="lista_completa" class="list-items eliminar">
+                <li class="item" >Item 1 <button class="btn eliminar">X</button></li>
+            </ul>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
